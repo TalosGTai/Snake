@@ -93,10 +93,10 @@ def change_direction(new_dir):
     elif (new_dir == 'up'):
         if (direction != 'down'):
             direction = new_dir
-    if (new_dir == 'left'):
+    elif (new_dir == 'left'):
         if (direction != 'right'):
             direction = new_dir
-    if (new_dir == 'right'):
+    elif (new_dir == 'right'):
         if (direction != 'left'):
             direction = new_dir
 
